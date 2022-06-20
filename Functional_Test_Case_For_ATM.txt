@@ -1,0 +1,32 @@
+***********************************************************************************************
+*-------------------Functional Test Cases For ATM Application---------------------------------*
+   *-------------------------Written by - Yadav Aniket-------------------------------------*
+***********************************************************************************************
+1. Verify the ‘ATM Application UI’ is as per the specification
+2. Verify the font of the text displayed in ATM screen
+3. Verify the text on the screen buttons visible clearly.
+4. Verify the functionality of all the buttons on the screen
+5. Verify the text on the buttons visible clearly.
+6. Verify that touch of the ATM application is smooth and operational
+7. Verify the language selection functionality
+8. verify the ATM application shows the home page where the user credentials (card number and pin details) has to be entered
+9. Verify the ATM application accepts credentials
+10. Verify the error message by entering an invalid card details (Expired Card or wrong card number)
+11. Verify that the user is asked to enter the PIN after entering a valid ATM Card number
+12. Verify the error message by entering an incorrect PIN
+13. Verify that PIN is encrypted/masked
+14. Verify that there is an action like blocking of card occurs when the total no. of incorrect PIN attempts get surpassed
+15. Verify the user is allowed to do only one cash withdrawal transaction per PIN request
+16. Verify the session time out if no activity is performed for a particular period of time
+17. Verify the machine logs out of the user session immediately after successful withdrawal
+18. Verify the message when there is no money in the ATM
+19. Verify the cash withdrawal functionality by entering some valid amount
+20. Verify the cash withdrawal functionality by entering an amount less than 100
+21. Verify the cash withdrawal functionality by entering an amount greater than the total available balance in the account.
+22. Verify the cash withdrawal functionality by entering an amount greater than per day limit
+17. Verify the user is allowed to enter the amount again in case the amount entered is not valid. A proper message should be displayed.
+23. Verify the ATM machine shows the balance receipt after sucessfull withdrawal
+24. Verify the user is allowed to choose different account types like Savings, Current etc.,
+25. Verify that user is able to use card of other bank on the ATM
+26. Verify whether the printed data is correct or not in the receipt
+27. Verify how much time the system takes to log out.
